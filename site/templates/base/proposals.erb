@@ -1,0 +1,20 @@
+---
+extension: html
+filter:
+- erb
+- markdown
+dirty: true
+proposal: true
+<%= @talk_type %>: true
+selected: false
+layout: event
+author: <%= @talk_speaker %>
+title: "<%= @talk_title %>"
+---
+
+**Abstract:**
+
+Here,
+
+**Speaker:**
+<%= @talk_speaker %>
